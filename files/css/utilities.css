@@ -1,0 +1,47 @@
+.h-full{
+ height: 100%;
+}
+.w-full{
+    width: 100%;
+}
+.h-half{
+    height: 50%;
+}
+.w-half{
+    width: 50%;
+}
+.flex{
+    display: flex;
+}
+.flex-col{
+    flex-direction: column;
+}
+.ic{
+    align-items: center;
+}
+.jc{
+    justify-content: center;
+}
+.js{
+    justify-content: space-around;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(20rem,1fr));
+    gap: 1rem;
+}
+.icon{
+    width: 1.7rem;
+    height: 1.7rem;
+}
+.icons{
+    width: 1rem;
+    height: 1rem;
+    margin-top: -3px;
+}
+.margin{
+    margin: 2rem;
+}
+.h-max{
+    height: max-content;
+}
